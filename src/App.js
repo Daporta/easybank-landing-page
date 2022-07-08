@@ -82,12 +82,29 @@ function App() {
       </section>
       <footer>
         <section className='logo-social'>
-          <img src={icon2} alt="easyBank-logo" className='footer-easyBank-logo' />
-          <img src={facebookLogo} alt="facebook" />
-          <img src={youtubeLogo} alt="youtube" />
-          <img src={twitterLogo} alt="twitter" />
-          <img src={pinterestLogo} alt="pinterest" />
-          <img src={instagramLogo} alt="instagram" />
+          <a href="/">
+            <img src={icon2} alt="easyBank-logo" className='footer-easyBank-logo' />
+          </a>
+          <a href="htpps://www.facebook.com">
+            <img src={facebookLogo} alt="facebook" />
+          </a>
+        
+          <a href="htpps://www.youtube.com">
+            <img src={youtubeLogo} alt="youtube" />
+          </a>
+          
+          <a href="htpps://www.twitter.com">
+            <img src={twitterLogo} alt="twitter" />
+          </a>
+          
+          <a href="htpps://www.pinterest.com">
+            <img src={pinterestLogo} alt="pinterest" />
+          </a>
+          
+          <a href="htpps://www.instagram.com">
+            <img src={instagramLogo} alt="instagram" />
+          </a>
+          
         </section>
         <section className='footer-links'>
           <a href="/">About Us</a>
